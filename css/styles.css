@@ -1,0 +1,116 @@
+/*Ordered by: General elements > page elements from index.html to house_loyalty.html*/
+
+body {
+  padding: 5em 5% 5em 5%;
+}
+
+/* LOGO AND MAILTO ON THE TOP*/
+.flex-logo {
+  display: flex;
+  margin-bottom: 3em;
+}
+.flex-logo-1 {
+  width: 50%;
+  position: relative;
+}
+.logoImg {
+  height: 200px;
+  vertical-align: bottom;
+}
+.mailto {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* NAV BAR */
+.mainNav {
+  margin-bottom: 4em;
+}
+
+/* FOOTER*/
+footer {
+  background-color: #e9ecef;
+  text-align: center;
+  width: 100%;
+  height: 3em;
+  margin-top: 2.5em;
+}
+.footerText {
+  font-weight: bold;
+  padding-top: 0.6em;
+}
+
+/* COLLAPSING HOMEPAGE */
+#module a.collapsed:after {
+  content: "+ Show More";
+}
+#module a:not(.collapsed):after {
+  content: "- Show Less";
+}
+
+/*STARTER PAGES TABLE*/
+.tableOverflow {
+  max-height: 25em;
+  overflow: auto;
+}
+
+/* STARTER PAGES CHECKBOXES */
+.checkboxes {
+  display: flex;
+}
+input[type="checkbox"] {
+  margin-left: 2em;
+  margin-right: 3px;
+  transform: scale(1.5);
+  position: relative;
+  top: 7px;
+}
+
+/*STARTER PAGES SELECT FILTER*/
+.stateFil {
+  margin-left: 40%;
+  margin-right: 4px;
+  align-self: center;
+}
+#state {
+  max-width: 13em;
+  margin-bottom: 0.5em;
+}
+
+/* STARTER PAGES TEXT SECTIONS */
+.senatorText {
+  max-width: 60%;
+  margin-bottom: 2em;
+  text-indent: 1.5em;
+}
+
+/* ATTENDANCE/LOYALTY PAGES TABLES AND SIDETEXT */
+.table1 {
+  margin-left: 10%;
+  width: 40%;
+}
+.titleTable1 {
+  text-align: end;
+}
+.table2 {
+  width: 45%;
+  max-height: 30em;
+  overflow: auto;
+}
+.table3 {
+  width: 45%;
+  margin-left: 10%;
+  max-height: 30em;
+  overflow: auto;
+}
+.attendanceText {
+  max-width: 50%;
+}
+.tablesFlex {
+  display: flex;
+}
+.attendanceFlex {
+  display: flex;
+  margin-bottom: 4em;
+}
